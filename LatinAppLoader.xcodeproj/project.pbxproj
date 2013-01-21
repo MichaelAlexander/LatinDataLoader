@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276ABCCC16ADA64700F971DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276ABCCB16ADA64700F971DE /* CoreData.framework */; };
+		276ABCCE16ADA64700F971DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276ABCCD16ADA64700F971DE /* Foundation.framework */; };
+		276ABCD116ADA64700F971DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD016ADA64700F971DE /* main.m */; };
+		276ABCD616ADA64700F971DE /* LatinAppLoader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD416ADA64700F971DE /* LatinAppLoader.xcdatamodeld */; };
+		276ABCD816ADA64700F971DE /* LatinAppLoader.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 276ABCD716ADA64700F971DE /* LatinAppLoader.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		276ABCC516ADA64700F971DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				276ABCD816ADA64700F971DE /* LatinAppLoader.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		276ABCC716ADA64700F971DE /* LatinAppLoader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LatinAppLoader; sourceTree = BUILT_PRODUCTS_DIR; };
+		276ABCCB16ADA64700F971DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		276ABCCD16ADA64700F971DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		276ABCD016ADA64700F971DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276ABCD316ADA64700F971DE /* LatinAppLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LatinAppLoader-Prefix.pch"; sourceTree = "<group>"; };
+		276ABCD516ADA64700F971DE /* LatinAppLoader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LatinAppLoader.xcdatamodel; sourceTree = "<group>"; };
+		276ABCD716ADA64700F971DE /* LatinAppLoader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LatinAppLoader.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276ABCC416ADA64700F971DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276ABCCC16ADA64700F971DE /* CoreData.framework in Frameworks */,
+				276ABCCE16ADA64700F971DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276ABCBC16ADA64700F971DE = {
+			isa = PBXGroup;
+			children = (
+				276ABCCF16ADA64700F971DE /* LatinAppLoader */,
+				276ABCCA16ADA64700F971DE /* Frameworks */,
+				276ABCC816ADA64700F971DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276ABCC816ADA64700F971DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276ABCC716ADA64700F971DE /* LatinAppLoader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276ABCCA16ADA64700F971DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276ABCCB16ADA64700F971DE /* CoreData.framework */,
+				276ABCCD16ADA64700F971DE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		276ABCCF16ADA64700F971DE /* LatinAppLoader */ = {
+			isa = PBXGroup;
+			children = (
+				276ABCD016ADA64700F971DE /* main.m */,
+				276ABCD716ADA64700F971DE /* LatinAppLoader.1 */,
+				276ABCD416ADA64700F971DE /* LatinAppLoader.xcdatamodeld */,
+				276ABCD216ADA64700F971DE /* Supporting Files */,
+			);
+			path = LatinAppLoader;
+			sourceTree = "<group>";
+		};
+		276ABCD216ADA64700F971DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276ABCD316ADA64700F971DE /* LatinAppLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276ABCC616ADA64700F971DE /* LatinAppLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276ABCDB16ADA64700F971DE /* Build configuration list for PBXNativeTarget "LatinAppLoader" */;
+			buildPhases = (
+				276ABCC316ADA64700F971DE /* Sources */,
+				276ABCC416ADA64700F971DE /* Frameworks */,
+				276ABCC516ADA64700F971DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatinAppLoader;
+			productName = LatinAppLoader;
+			productReference = 276ABCC716ADA64700F971DE /* LatinAppLoader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276ABCBE16ADA64700F971DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Michael Alexander";
+			};
+			buildConfigurationList = 276ABCC116ADA64700F971DE /* Build configuration list for PBXProject "LatinAppLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 276ABCBC16ADA64700F971DE;
+			productRefGroup = 276ABCC816ADA64700F971DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276ABCC616ADA64700F971DE /* LatinAppLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276ABCC316ADA64700F971DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276ABCD116ADA64700F971DE /* main.m in Sources */,
+				276ABCD616ADA64700F971DE /* LatinAppLoader.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		276ABCD916ADA64700F971DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		276ABCDA16ADA64700F971DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		276ABCDC16ADA64700F971DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LatinAppLoader/LatinAppLoader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276ABCDD16ADA64700F971DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LatinAppLoader/LatinAppLoader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276ABCC116ADA64700F971DE /* Build configuration list for PBXProject "LatinAppLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276ABCD916ADA64700F971DE /* Debug */,
+				276ABCDA16ADA64700F971DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276ABCDB16ADA64700F971DE /* Build configuration list for PBXNativeTarget "LatinAppLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276ABCDC16ADA64700F971DE /* Debug */,
+				276ABCDD16ADA64700F971DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		276ABCD416ADA64700F971DE /* LatinAppLoader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				276ABCD516ADA64700F971DE /* LatinAppLoader.xcdatamodel */,
+			);
+			currentVersion = 276ABCD516ADA64700F971DE /* LatinAppLoader.xcdatamodel */;
+			path = LatinAppLoader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 276ABCBE16ADA64700F971DE /* Project object */;
+}
