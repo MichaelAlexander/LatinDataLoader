@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27594AF016CF3C6400D0AF4E /* LatinGroups.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2762A9AB16C48E510002D981 /* LatinGroups.json */; };
+		27594AF116CF3C6700D0AF4E /* LatinWords.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2762A9AA16C48CCE0002D981 /* LatinWords.json */; };
 		276ABCCC16ADA64700F971DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276ABCCB16ADA64700F971DE /* CoreData.framework */; };
 		276ABCCE16ADA64700F971DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276ABCCD16ADA64700F971DE /* Foundation.framework */; };
 		276ABCD116ADA64700F971DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD016ADA64700F971DE /* main.m */; };
-		276ABCD616ADA64700F971DE /* LatinAppLoader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCD416ADA64700F971DE /* LatinAppLoader.xcdatamodeld */; };
 		276ABCD816ADA64700F971DE /* LatinAppLoader.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 276ABCD716ADA64700F971DE /* LatinAppLoader.1 */; };
+		276ABCE016ADA71A00F971DE /* LatinPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 276ABCDE16ADA71A00F971DE /* LatinPractice.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		27594AEF16CF3C4C00D0AF4E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				27594AF016CF3C6400D0AF4E /* LatinGroups.json in CopyFiles */,
+				27594AF116CF3C6700D0AF4E /* LatinWords.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		276ABCC516ADA64700F971DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -28,13 +41,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2762A9AA16C48CCE0002D981 /* LatinWords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LatinWords.json; sourceTree = "<group>"; };
+		2762A9AB16C48E510002D981 /* LatinGroups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LatinGroups.json; sourceTree = "<group>"; };
 		276ABCC716ADA64700F971DE /* LatinAppLoader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LatinAppLoader; sourceTree = BUILT_PRODUCTS_DIR; };
 		276ABCCB16ADA64700F971DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		276ABCCD16ADA64700F971DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		276ABCD016ADA64700F971DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		276ABCD316ADA64700F971DE /* LatinAppLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LatinAppLoader-Prefix.pch"; sourceTree = "<group>"; };
-		276ABCD516ADA64700F971DE /* LatinAppLoader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LatinAppLoader.xcdatamodel; sourceTree = "<group>"; };
 		276ABCD716ADA64700F971DE /* LatinAppLoader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LatinAppLoader.1; sourceTree = "<group>"; };
+		276ABCDF16ADA71A00F971DE /* LatinPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LatinPractice.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +94,11 @@
 		276ABCCF16ADA64700F971DE /* LatinAppLoader */ = {
 			isa = PBXGroup;
 			children = (
+				2762A9AB16C48E510002D981 /* LatinGroups.json */,
+				2762A9AA16C48CCE0002D981 /* LatinWords.json */,
+				276ABCDE16ADA71A00F971DE /* LatinPractice.xcdatamodeld */,
 				276ABCD016ADA64700F971DE /* main.m */,
 				276ABCD716ADA64700F971DE /* LatinAppLoader.1 */,
-				276ABCD416ADA64700F971DE /* LatinAppLoader.xcdatamodeld */,
 				276ABCD216ADA64700F971DE /* Supporting Files */,
 			);
 			path = LatinAppLoader;
@@ -105,6 +122,7 @@
 				276ABCC316ADA64700F971DE /* Sources */,
 				276ABCC416ADA64700F971DE /* Frameworks */,
 				276ABCC516ADA64700F971DE /* CopyFiles */,
+				27594AEF16CF3C4C00D0AF4E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -147,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				276ABCD116ADA64700F971DE /* main.m in Sources */,
-				276ABCD616ADA64700F971DE /* LatinAppLoader.xcdatamodeld in Sources */,
+				276ABCE016ADA71A00F971DE /* LatinPractice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,17 +262,18 @@
 				276ABCDD16ADA64700F971DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		276ABCD416ADA64700F971DE /* LatinAppLoader.xcdatamodeld */ = {
+		276ABCDE16ADA71A00F971DE /* LatinPractice.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				276ABCD516ADA64700F971DE /* LatinAppLoader.xcdatamodel */,
+				276ABCDF16ADA71A00F971DE /* LatinPractice.xcdatamodel */,
 			);
-			currentVersion = 276ABCD516ADA64700F971DE /* LatinAppLoader.xcdatamodel */;
-			path = LatinAppLoader.xcdatamodeld;
+			currentVersion = 276ABCDF16ADA71A00F971DE /* LatinPractice.xcdatamodel */;
+			path = LatinPractice.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
